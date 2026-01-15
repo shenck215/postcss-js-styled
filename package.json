@@ -1,7 +1,15 @@
 {
-  "name": "postcss-styled-components",
-  "version": "0.2.1",
+  "name": "postcss-js-styled",
+  "version": "1.0.0",
   "description": "styled-components support for PostCSS and related tooling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenck215/postcss-js-styled.git"
+  },
+  "homepage": "https://github.com/shenck215/postcss-js-styled#readme",
+  "bugs": {
+    "url": "https://github.com/shenck215/postcss-js-styled/issues"
+  },
   "main": "lib/main.js",
   "files": [
     "lib/!(test)",
@@ -17,9 +25,10 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint && npm run test"
   },
-  "author": "James Garbutt (https://github.com/43081j)",
+  "author": "Shenck (https://github.com/shenck215)",
   "license": "MIT",
   "devDependencies": {
+    "@types/babel__traverse": "^7.28.0",
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
@@ -42,7 +51,7 @@
     "postcss-scss": "^4.0.6"
   },
   "dependencies": {
-    "postcss-js-core": "^0.5.1"
+    "postcss-js-styled-core": "^1.0.0"
   },
   "peerDependenciesMeta": {
     "postcss-less": {

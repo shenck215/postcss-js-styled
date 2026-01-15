@@ -1,4 +1,4 @@
-import {createParser, createStringifier} from 'postcss-js-core';
+import {createParser, createStringifier} from 'postcss-js-styled-core';
 import {options} from './options.js';
 
 export = {

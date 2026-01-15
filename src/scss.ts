@@ -1,4 +1,8 @@
-import {createParser, createStringifier, SyntaxOptions} from 'postcss-js-core';
+import {
+  createParser,
+  createStringifier,
+  SyntaxOptions
+} from 'postcss-js-styled-core';
 import {options} from './options.js';
 import {parse as scssParser} from 'postcss-scss';
 import scssStringifier = require('postcss-scss/lib/scss-stringifier');

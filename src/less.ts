@@ -1,4 +1,8 @@
-import {createParser, createStringifier, SyntaxOptions} from 'postcss-js-core';
+import {
+  createParser,
+  createStringifier,
+  SyntaxOptions
+} from 'postcss-js-styled-core';
 import {options} from './options.js';
 import {parse as lessParser} from 'postcss-less';
 import lessStringifier = require('postcss-less/lib/LessStringifier.js');
